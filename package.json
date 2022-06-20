@@ -16,7 +16,7 @@
     "docs": "vitepress dev docs",
     "docs-build": "vitepress build docs",
     "docs-serve": "vitepress serve docs",
-    "release": "lerna publish --conventional-commits",
+    "release": "lerna publish --conventional-commits"
   },
   "devDependencies": {
     "lerna": "^5.1.4",

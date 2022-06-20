@@ -59,10 +59,11 @@
         "type": "ci",
         "section": "👷 Continuous Integration | CI 配置"
       }
-    ],
-    "ignoreChanges": [
-      "ignored-file",
-      "**/__tests__/**",
-      "**/*.md"
     ]
-  }
+  },
+  "ignoreChanges": [
+    "ignored-file",
+    "**/__tests__/**",
+    "**/*.md"
+  ]
+}

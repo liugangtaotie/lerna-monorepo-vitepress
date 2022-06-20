@@ -3,5 +3,15 @@
     "packages/*"
   ],
   "useNx": false,
-  "version": "0.0.1"
+  "version": "0.0.1",
+  "command": {
+    "publish": {
+      "registry": "https://registry.npmjs.org"
+    }
+  },
+  "ignoreChanges": [
+    "ignored-file",
+    "**/__tests__/**",
+    "**/*.md"
+  ]
 }

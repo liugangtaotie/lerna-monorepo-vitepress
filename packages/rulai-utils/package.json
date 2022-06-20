@@ -1,6 +1,6 @@
 {
   "name": "rulai-utils",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "> TODO: description",
   "author": "liugang <lgcf1314@gmail.com>",
   "homepage": "https://vitejs.dev/packages/rulai-utils",
@@ -28,6 +28,6 @@
     "url": "https://github.com/liugangtaotie/lerna-monorepo-vitepress/issues"
   },
   "dependencies": {
-    "rulai-cli": "^0.0.1"
+    "rulai-cli": "^0.0.2"
   }
 }

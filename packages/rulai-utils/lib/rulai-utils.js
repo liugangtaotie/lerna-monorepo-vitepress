@@ -3,7 +3,7 @@
  * @Author: liugang
  * @Date: 2022-06-20 13:35:05
  * @LastEditors: liugang
- * @LastEditTime: 2022-06-20 18:51:42
+ * @LastEditTime: 2022-06-20 18:53:52
  */
 'use strict'
 
@@ -12,6 +12,7 @@ module.exports = rulaiUtils
 
 function rulaiUtils() {
   // TODO
+  console.info('rulaiUtils')
   console.info('rulaiUtils')
   console.info('rulaiUtils')
 }

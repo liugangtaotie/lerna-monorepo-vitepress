@@ -1,0 +1,29 @@
+{
+  "name": "rulai-cli",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "liugang <lgcf1314@gmail.com>",
+  "homepage": "https://vitejs.dev/packages/rulai-cli",
+  "license": "ISC",
+  "main": "lib/rulai-cli.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.yarnpkg.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liugangtaotie/lerna-monorepo-vitepress.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/liugangtaotie/lerna-monorepo-vitepress/issues"
+  }
+}

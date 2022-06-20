@@ -19,6 +19,7 @@
     "release": "lerna publish --conventional-commits"
   },
   "devDependencies": {
+    "conventional-changelog-conventionalcommits": "^5.0.0",
     "lerna": "^5.1.4",
     "typescript": "^4.6.4",
     "vite": "^2.9.12",

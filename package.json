@@ -1,0 +1,45 @@
+{
+  "name": "lerna-monorepo-vitepress",
+  "private": true,
+  "engines": {
+    "node": ">=14.6.0"
+  },
+  "homepage": "https://vitejs.dev/",
+  "keywords": [
+    "frontend",
+    "hmr",
+    "dev-server",
+    "build-tool",
+    "vite"
+  ],
+  "scripts": {
+    "docs": "vitepress dev docs",
+    "docs-build": "vitepress build docs",
+    "docs-serve": "vitepress serve docs"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.4",
+    "vite": "^2.9.12",
+    "vitepress": "^1.0.0-alpha.2",
+    "vue": "^3.2.37"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "pnpm exec lint-staged --concurrent false",
+    "commit-msg": "pnpm exec esno scripts/verifyCommit.ts $1"
+  },
+  "lint-staged": {
+    "*": [
+      "prettier --write --ignore-unknown"
+    ],
+    "packages/*/{src,types}/**/*.ts": [
+      "eslint --fix"
+    ],
+    "packages/**/*.d.ts": [
+      "eslint --fix"
+    ],
+    "playground/**/__tests__/**/*.ts": [
+      "eslint --fix"
+    ]
+  },
+  "packageManager": "pnpm@7.1.9"
+}

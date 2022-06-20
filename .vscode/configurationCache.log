@@ -1,0 +1,1 @@
+{"buildTargets":["analyz","app","autofix","build","default","deploy","dev","dll","e2e","lint","make","pre","pro","test","unit"],"launchTargets":[],"customConfigurationProvider":{"workspaceBrowse":{"browsePath":[],"compilerArgs":[]},"fileIndex":[]}}

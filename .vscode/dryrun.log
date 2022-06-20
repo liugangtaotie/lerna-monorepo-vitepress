@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/sweet/monorepo/lerna-monorepo-vitepress'
+make: Leaving directory `/Users/sweet/monorepo/lerna-monorepo-vitepress'
+ 
+make: *** No rule to make target `help', needed by `default'.
+

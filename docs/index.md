@@ -7,7 +7,7 @@ titleTemplate: Next Generation Frontend Tooling
 hero:
   name: Vite
   text: 一切事情，物来则应，过去不留
-  tagline: 如人饮水冷暖自知2022.
+  tagline: 如人饮水冷暖自知2022070911.
   image:
     src: /logo-with-shadow.png
     alt: Vite

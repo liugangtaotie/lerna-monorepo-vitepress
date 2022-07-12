@@ -7,7 +7,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 
 # This program built for i386-apple-darwin11.3.0
 
-# Make data base, printed on Mon Jun 20 09:34:44 2022
+# Make data base, printed on Sat Jul  9 20:34:59 2022
 
 # Variables
 
@@ -17,8 +17,6 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 ?F = $(notdir $?)
 # environment
 LC_CTYPE = 
-# environment
-VSCODE_LOG_NATIVE = false
 # environment
 NVM_INC = /Users/sweet/.nvm/versions/node/v16.13.0/include/node
 # automatic
@@ -34,7 +32,7 @@ CURDIR := /Users/sweet/monorepo/lerna-monorepo-vitepress
 # makefile
 SHELL = /bin/sh
 # environment
-VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"bbca1a7059cee8a1b93da8947fee1c4f.zh-cn","_translationsConfigFile":"/Users/sweet/Library/Application Support/Code - Insiders/clp/bbca1a7059cee8a1b93da8947fee1c4f.zh-cn/tcf.json","_cacheRoot":"/Users/sweet/Library/Application Support/Code - Insiders/clp/bbca1a7059cee8a1b93da8947fee1c4f.zh-cn","_resolvedLanguagePackCoreLocation":"/Users/sweet/Library/Application Support/Code - Insiders/clp/bbca1a7059cee8a1b93da8947fee1c4f.zh-cn/fbf1cf3832d43088e27837dbb68d24ab65a098c1","_corruptedFile":"/Users/sweet/Library/Application Support/Code - Insiders/clp/bbca1a7059cee8a1b93da8947fee1c4f.zh-cn/corrupted.info","_languagePackSupport":true}
+VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"c9280508cf500dcd9c4c87fe2a1b08e9.zh-cn","_translationsConfigFile":"/Users/sweet/Library/Application Support/Code - Insiders/clp/c9280508cf500dcd9c4c87fe2a1b08e9.zh-cn/tcf.json","_cacheRoot":"/Users/sweet/Library/Application Support/Code - Insiders/clp/c9280508cf500dcd9c4c87fe2a1b08e9.zh-cn","_resolvedLanguagePackCoreLocation":"/Users/sweet/Library/Application Support/Code - Insiders/clp/c9280508cf500dcd9c4c87fe2a1b08e9.zh-cn/3104db414c8fedcf6e4493f14da7df0b7413853a","_corruptedFile":"/Users/sweet/Library/Application Support/Code - Insiders/clp/c9280508cf500dcd9c4c87fe2a1b08e9.zh-cn/corrupted.info","_languagePackSupport":true}
 # environment
 _ = /usr/bin/make
 # environment
@@ -46,27 +44,23 @@ MAKEFILE_LIST :=  Makefile
 # environment
 AUTOJUMP_SOURCED = 1
 # environment
-VSCODE_VERBOSE_LOGGING = true
-# environment
 __CFBundleIdentifier = com.microsoft.VSCodeInsiders
 # environment
 INFOPATH = /usr/local/share/info:
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /var/folders/kq/5l_rlt6j61sg8x3rlww3gb_c0000gn/T/vscode-ipc-82847fce-366c-4956-aed6-c1f258259baf.sock
-# environment
 VSCODE_CWD = /
 # environment
-PATH = /Users/sweet/.nvm/versions/node/v12.10.0/lib/node_modules/vue-cli/bin:/Users/sweet/.nvm/versions/node/v16.13.0/bin:/usr/local/opt/php@7.0/sbin:/usr/local/opt/php@7.0/bin:/Users/sweet/software/apache-maven-3.5.4/bin:./node_modules/.bin:/Users/sweet/.yarn/bin:/Users/sweet/.config/yarn/global/node_modules/.bin:/Users/sweet/anaconda3/condabin:/Users/sweet/anaconda2/bin:/Users/sweet/tensorflow/flutter/bin:/Users/sweet/software/apache-maven-3.5.4/bin:/Users/sweet/anaconda2/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/Library/Frameworks/Python.framework/Versions/3.5/bin:/Library/Frameworks/Python.framework/Versions/3.5/bin:/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/usr/local/mysql/bin:/Users/sweet/.rvm/bin:/Users/sweet/Library/Android/sdk/tools:/Users/sweet/Library/Android/sdk/platform-tools:/usr/local/lib/node_modules/vue-cli/bin:/usr/local/mongodb/bin:/Users/sweet/.rvm/bin:/Users/sweet/Library/Application Support/cloud-code/installer/google-cloud-sdk/bin:/Users/sweet/google-cloud-sdk/bin
+PATH = /Users/sweet/Library/pnpm:/Users/sweet/.nvm/versions/node/v12.10.0/lib/node_modules/vue-cli/bin:/Users/sweet/.nvm/versions/node/v16.13.0/bin:/usr/local/opt/php@7.0/sbin:/usr/local/opt/php@7.0/bin:/Users/sweet/software/apache-maven-3.5.4/bin:./node_modules/.bin:/Users/sweet/.yarn/bin:/Users/sweet/.config/yarn/global/node_modules/.bin:/Users/sweet/anaconda3/condabin:/Users/sweet/anaconda2/bin:/Users/sweet/tensorflow/flutter/bin:/Users/sweet/software/apache-maven-3.5.4/bin:/Users/sweet/anaconda2/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/Library/Frameworks/Python.framework/Versions/3.5/bin:/Library/Frameworks/Python.framework/Versions/3.5/bin:/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/usr/local/mysql/bin:/Users/sweet/.rvm/bin:/Users/sweet/Library/Android/sdk/tools:/Users/sweet/Library/Android/sdk/platform-tools:/usr/local/lib/node_modules/vue-cli/bin:/usr/local/mongodb/bin:/Users/sweet/.rvm/bin:/Users/sweet/Library/Application Support/cloud-code/installer/google-cloud-sdk/bin:/Users/sweet/google-cloud-sdk/bin
 # environment
 LSCOLORS = Gxfxcxdxbxegedabagacad
 # environment
 rvm_stored_umask = 022
 # environment
+PNPM_HOME = /Users/sweet/Library/pnpm
+# environment
 NVM_BIN = /Users/sweet/.nvm/versions/node/v16.13.0/bin
 # environment
 _system_name = OSX
-# environment
-VSCODE_LOG_STACK = true
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
@@ -78,15 +72,13 @@ M2 = /Users/sweet/software/apache-maven-3.5.4/bin
 # environment
 CLOUDSDK_METRICS_ENVIRONMENT = cloudcode.vscode
 # environment
-SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.XuHNYEwGzI/Listeners
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.k4trbGFl84/Listeners
 # automatic
 %F = $(notdir $%)
 # environment
 CONDA_EXE = /Users/sweet/anaconda3/bin/conda
 # environment
-CLOUDSDK_METRICS_ENVIRONMENT_VERSION = 1.18.3
-# environment
-VSCODE_PIPE_LOGGING = true
+CLOUDSDK_METRICS_ENVIRONMENT_VERSION = 1.19.0
 # environment
 rvm_bin_path = /Users/sweet/.rvm/bin
 # environment
@@ -104,11 +96,11 @@ HOME = /Users/sweet
 # default
 MAKEFILEPATH := /Applications/Xcode.app/Contents/Developer/Makefiles
 # environment
-VSCODE_CODE_CACHE_PATH = /Users/sweet/Library/Application Support/Code - Insiders/CachedData/fbf1cf3832d43088e27837dbb68d24ab65a098c1
+VSCODE_CODE_CACHE_PATH = /Users/sweet/Library/Application Support/Code - Insiders/CachedData/3104db414c8fedcf6e4493f14da7df0b7413853a
 # environment
 LOGNAME = sweet
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # environment
 NVM_CD_FLAGS = -q
 # environment
@@ -156,7 +148,7 @@ TMPDIR = /var/folders/kq/5l_rlt6j61sg8x3rlww3gb_c0000gn/T/
 # environment
 NODE_PATH = /usr/local/lib/node_modules
 # environment
-VSCODE_IPC_HOOK = /Users/sweet/Library/Application Support/Code - Insiders/1.69.0-insider-main.sock
+VSCODE_IPC_HOOK = /Users/sweet/Library/Application Support/Code - Insiders/1.70.0-insider-main.sock
 # environment
 MallocNanoZone = 0
 # makefile
@@ -170,7 +162,7 @@ NVM_DIR = /Users/sweet/.nvm
 # environment
 HOMEBREW_SHELLENV_PREFIX = /usr/local
 # environment
-XPC_SERVICE_NAME = application.com.microsoft.VSCodeInsiders.8906838314.8906838320
+XPC_SERVICE_NAME = application.com.microsoft.VSCodeInsiders.8908131705.8908131711
 # environment
 HOMEBREW_PREFIX = /usr/local
 # automatic
@@ -218,11 +210,11 @@ AUTOJUMP_ERROR_PATH = /Users/sweet/Library/autojump/errors.log
 # environment
 LANG = C
 # environment
-VSCODE_PID = 31738
+VSCODE_PID = 11447
 # environment
 _CE_CONDA = 
 # variable set hash-table stats:
-# Load=105/1024=10%, Rehash=0, Collisions=2/129=2%
+# Load=101/1024=10%, Rehash=0, Collisions=2/125=2%
 
 # Pattern-specific Variable Values
 
@@ -230,9 +222,9 @@ _CE_CONDA =
 
 # Directories
 
-# . (device 16777221, inode 8907363251): 10 files, no impossibilities.
+# . (device 16777220, inode 8907363251): 16 files, no impossibilities.
 
-# 10 files, no impossibilities in 1 directories.
+# 16 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -268,9 +260,6 @@ all:
 .PHONY: app
 #  Implicit rule search has not been done.
 #  Modification time never checked.
- 
-make: *** No rule to make target `all'.  Stop.
-
 #  File has not been updated.
 
 autofix:
@@ -283,6 +272,9 @@ autofix:
 
 # Not a target:
 .SUFFIXES:
+ 
+make: *** No rule to make target `all'.  Stop.
+
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -404,6 +396,6 @@ deploy:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Mon Jun 20 09:34:44 2022
+# Finished Make data base on Sat Jul  9 20:34:59 2022
 
  

@@ -8,7 +8,7 @@ npm run docs-build
 # 进入生成的文件夹
 cd ../h5-document-vite-web
 rm -rf *
-cp -rf ../h5-document-vite/docs/.vitepress/dist/ .
+cp -rf ../lerna-monorepo-vitepress/docs/.vitepress/dist/ .
 
 
 # 如果是发布到自定义域名

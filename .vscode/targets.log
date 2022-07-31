@@ -7,7 +7,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 
 # This program built for i386-apple-darwin11.3.0
 
-# Make data base, printed on Sat Jul  9 20:34:59 2022
+# Make data base, printed on Sun Jul 31 17:29:15 2022
 
 # Variables
 
@@ -32,13 +32,13 @@ CURDIR := /Users/sweet/monorepo/lerna-monorepo-vitepress
 # makefile
 SHELL = /bin/sh
 # environment
-VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"c9280508cf500dcd9c4c87fe2a1b08e9.zh-cn","_translationsConfigFile":"/Users/sweet/Library/Application Support/Code - Insiders/clp/c9280508cf500dcd9c4c87fe2a1b08e9.zh-cn/tcf.json","_cacheRoot":"/Users/sweet/Library/Application Support/Code - Insiders/clp/c9280508cf500dcd9c4c87fe2a1b08e9.zh-cn","_resolvedLanguagePackCoreLocation":"/Users/sweet/Library/Application Support/Code - Insiders/clp/c9280508cf500dcd9c4c87fe2a1b08e9.zh-cn/3104db414c8fedcf6e4493f14da7df0b7413853a","_corruptedFile":"/Users/sweet/Library/Application Support/Code - Insiders/clp/c9280508cf500dcd9c4c87fe2a1b08e9.zh-cn/corrupted.info","_languagePackSupport":true}
+VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"77dd423173c04201a63902e2b0038e26.zh-cn","_translationsConfigFile":"/Users/sweet/Library/Application Support/Code - Insiders/clp/77dd423173c04201a63902e2b0038e26.zh-cn/tcf.json","_cacheRoot":"/Users/sweet/Library/Application Support/Code - Insiders/clp/77dd423173c04201a63902e2b0038e26.zh-cn","_resolvedLanguagePackCoreLocation":"/Users/sweet/Library/Application Support/Code - Insiders/clp/77dd423173c04201a63902e2b0038e26.zh-cn/12b08be500f8a307f30e92cbc3ee39ba115eab69","_corruptedFile":"/Users/sweet/Library/Application Support/Code - Insiders/clp/77dd423173c04201a63902e2b0038e26.zh-cn/corrupted.info","_languagePackSupport":true}
 # environment
 _ = /usr/bin/make
 # environment
 WALLABY_PRODUCTION = true
 # environment
-_system_version = 12.4
+_system_version = 12.5
 # makefile (from `Makefile', line 1)
 MAKEFILE_LIST :=  Makefile
 # environment
@@ -72,7 +72,7 @@ M2 = /Users/sweet/software/apache-maven-3.5.4/bin
 # environment
 CLOUDSDK_METRICS_ENVIRONMENT = cloudcode.vscode
 # environment
-SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.k4trbGFl84/Listeners
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.M0NbgFu26k/Listeners
 # automatic
 %F = $(notdir $%)
 # environment
@@ -96,7 +96,7 @@ HOME = /Users/sweet
 # default
 MAKEFILEPATH := /Applications/Xcode.app/Contents/Developer/Makefiles
 # environment
-VSCODE_CODE_CACHE_PATH = /Users/sweet/Library/Application Support/Code - Insiders/CachedData/3104db414c8fedcf6e4493f14da7df0b7413853a
+VSCODE_CODE_CACHE_PATH = /Users/sweet/Library/Application Support/Code - Insiders/CachedData/12b08be500f8a307f30e92cbc3ee39ba115eab69
 # environment
 LOGNAME = sweet
 # environment
@@ -162,7 +162,7 @@ NVM_DIR = /Users/sweet/.nvm
 # environment
 HOMEBREW_SHELLENV_PREFIX = /usr/local
 # environment
-XPC_SERVICE_NAME = application.com.microsoft.VSCodeInsiders.8908131705.8908131711
+XPC_SERVICE_NAME = application.com.microsoft.VSCodeInsiders.8909204134.8909204142
 # environment
 HOMEBREW_PREFIX = /usr/local
 # automatic
@@ -210,7 +210,7 @@ AUTOJUMP_ERROR_PATH = /Users/sweet/Library/autojump/errors.log
 # environment
 LANG = C
 # environment
-VSCODE_PID = 11447
+VSCODE_PID = 77970
 # environment
 _CE_CONDA = 
 # variable set hash-table stats:
@@ -396,6 +396,6 @@ deploy:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Sat Jul  9 20:34:59 2022
+# Finished Make data base on Sun Jul 31 17:29:15 2022
 
  

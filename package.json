@@ -14,7 +14,7 @@
   ],
   "scripts": {
     "docs:dev": "yarn run register:components && vitepress dev docs",
-    "docs:build": "yarn run register:components && cross-env BASE=/vitepress-demo/ vitepress build docs",
+    "docs:build": "yarn run register:components && cross-env BASE=/h5-document-vite-web/ vitepress build docs",
     "docs-serve": "vitepress serve docs",
     "register:components": "vitepress-rc",
     "release": "lerna publish --conventional-commits"

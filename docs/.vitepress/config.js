@@ -3,8 +3,9 @@
  * @Author: liugang
  * @Date: 2022-08-21 15:18:49
  * @LastEditors: liugang
- * @LastEditTime: 2022-08-21 16:47:35
+ * @LastEditTime: 2022-08-21 16:51:10
  */
+const base = process.env.BASE || '/'
 const nav = require('./configs/nav')
 const sidebar = require('./configs/sidebar')
 
@@ -14,7 +15,7 @@ module.exports = {
 
   head: [['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }]],
 
-  base: '/h5-document-vite-web',
+  base: base,
 
   themeConfig: {
     repo: 'https://github.com/liugangtaotie/lerna-monorepo-vitepress.git',

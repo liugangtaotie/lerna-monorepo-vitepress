@@ -19,6 +19,10 @@ function getComponentsSidebar() {
           text: 'Wuxiang 组件',
           link: '/components/wuxiang',
         },
+        {
+          text: 'Pusa 组件',
+          link: '/components/pusa',
+        },
       ],
     },
   ]

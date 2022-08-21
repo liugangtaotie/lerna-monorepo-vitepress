@@ -3,13 +3,16 @@
  * @Author: liugang
  * @Date: 2022-08-21 15:18:49
  * @LastEditors: liugang
- * @LastEditTime: 2022-08-21 15:21:01
+ * @LastEditTime: 2022-08-21 16:03:48
  */
 import theme from 'vitepress/dist/client/theme-default'
 import 'vitepress-theme-demoblock/theme/styles/index.css'
 import { registerComponents } from './register-components'
-import Button from '../../../packages/Button/Button.vue'
+
+import Button from '../../../packages/Button/index.vue'
 import '../../../packages/Button/index.css'
+
+import Wuxiang from '../../../packages/Wuxiang/index.vue'
 import './styles/index.css'
 
 export default {
@@ -19,6 +22,7 @@ export default {
     // router is VitePress' custom router (see `lib/app/router.js`)
     // siteData is a ref of current site-level metadata.
     app.component(Button.name, Button)
+    app.component(Wuxiang.name, Wuxiang)
     registerComponents(app)
   },
 }

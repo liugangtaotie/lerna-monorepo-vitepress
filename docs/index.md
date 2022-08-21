@@ -20,5 +20,5 @@ features:
       details: Rollup-superset plugin interface shared between dev and build.
     - title: 🔑 Fully Typed APIs
       details: Flexible programmatic APIs with full TypeScript typing.
-footer: MIT Licensed | Copyright © 2021-present 君惜
+footer: MIT Licensed | Copyright © 2022-present wuxiang
 ---

@@ -15,6 +15,10 @@ function getComponentsSidebar() {
           text: 'Button 按钮',
           link: '/components/button',
         },
+        {
+          text: 'Wuxiang 组件',
+          link: '/components/wuxiang',
+        },
       ],
     },
   ]

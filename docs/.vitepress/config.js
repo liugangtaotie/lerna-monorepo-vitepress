@@ -3,13 +3,13 @@
  * @Author: liugang
  * @Date: 2022-08-21 15:18:49
  * @LastEditors: liugang
- * @LastEditTime: 2022-08-21 15:49:23
+ * @LastEditTime: 2022-08-21 15:56:56
  */
 const nav = require('./configs/nav')
 const sidebar = require('./configs/sidebar')
 
 module.exports = {
-  title: 'VitePress',
+  title: '业务组件',
   description: 'Life is short, Keep it simple.',
 
   head: [['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }]],

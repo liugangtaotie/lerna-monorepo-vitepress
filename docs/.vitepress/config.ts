@@ -3,7 +3,7 @@
  * @Author: liugang
  * @Date: 2022-06-12 22:32:22
  * @LastEditors: liugang
- * @LastEditTime: 2022-07-09 22:31:29
+ * @LastEditTime: 2022-08-21 10:49:01
  */
 import { defineConfig } from 'vitepress'
 
@@ -69,6 +69,20 @@ export default defineConfig({
           ],
         },
       ],
+    },
+  },
+  markdown: {
+    // options for markdown-it-anchor
+    anchor: { permalink: false },
+
+    // options for markdown-it-toc
+    toc: { includeLevel: [1, 2] },
+
+    config: (md) => {
+      const { demoBlockPlugin } = require('vitepress-theme-demoblock')
+      md.use(demoBlockPlugin, {
+        cssPreprocessor: 'less',
+      })
     },
   },
 })

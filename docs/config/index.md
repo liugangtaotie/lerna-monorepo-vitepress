@@ -1,6 +1,29 @@
+<!--
+ * @Descripttion: 
+ * @Author: liugang
+ * @Date: 2022-06-12 22:39:03
+ * @LastEditors: liugang
+ * @LastEditTime: 2022-08-21 11:24:43
+-->
 ## 一. 优秀博客
 
-### 2022：
+
+:::demo 使用`type`、`plain`、`round`和`circle`属性来定义 Button 的样式。
+
+```vue
+<template>
+  <xl-button>默认按钮</xl-button>
+  <xl-button type="primary">主要按钮</xl-button>
+  <xl-button type="success">成功按钮</xl-button>
+  <xl-button type="info">信息按钮</xl-button>
+  <xl-button type="warning">警告按钮</xl-button>
+  <xl-button type="danger">危险按钮</xl-button>
+</template>
+```
+
+:::
+
+## 2022：
 
 - [前端导航](https://www.kwgg2020.com/)
 

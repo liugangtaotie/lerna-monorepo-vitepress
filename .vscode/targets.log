@@ -7,7 +7,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 
 # This program built for i386-apple-darwin11.3.0
 
-# Make data base, printed on Sun Jul 31 17:29:15 2022
+# Make data base, printed on Sat Aug 20 23:58:17 2022
 
 # Variables
 
@@ -32,7 +32,7 @@ CURDIR := /Users/sweet/monorepo/lerna-monorepo-vitepress
 # makefile
 SHELL = /bin/sh
 # environment
-VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"77dd423173c04201a63902e2b0038e26.zh-cn","_translationsConfigFile":"/Users/sweet/Library/Application Support/Code - Insiders/clp/77dd423173c04201a63902e2b0038e26.zh-cn/tcf.json","_cacheRoot":"/Users/sweet/Library/Application Support/Code - Insiders/clp/77dd423173c04201a63902e2b0038e26.zh-cn","_resolvedLanguagePackCoreLocation":"/Users/sweet/Library/Application Support/Code - Insiders/clp/77dd423173c04201a63902e2b0038e26.zh-cn/12b08be500f8a307f30e92cbc3ee39ba115eab69","_corruptedFile":"/Users/sweet/Library/Application Support/Code - Insiders/clp/77dd423173c04201a63902e2b0038e26.zh-cn/corrupted.info","_languagePackSupport":true}
+VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"08bdb29c43b4c03defdaaecc51ad48b6.zh-cn","_translationsConfigFile":"/Users/sweet/Library/Application Support/Code - Insiders/clp/08bdb29c43b4c03defdaaecc51ad48b6.zh-cn/tcf.json","_cacheRoot":"/Users/sweet/Library/Application Support/Code - Insiders/clp/08bdb29c43b4c03defdaaecc51ad48b6.zh-cn","_resolvedLanguagePackCoreLocation":"/Users/sweet/Library/Application Support/Code - Insiders/clp/08bdb29c43b4c03defdaaecc51ad48b6.zh-cn/28f604dec81b609dd7e69362585f7a99d4c48f88","_corruptedFile":"/Users/sweet/Library/Application Support/Code - Insiders/clp/08bdb29c43b4c03defdaaecc51ad48b6.zh-cn/corrupted.info","_languagePackSupport":true}
 # environment
 _ = /usr/bin/make
 # environment
@@ -50,7 +50,7 @@ INFOPATH = /usr/local/share/info:
 # environment
 VSCODE_CWD = /
 # environment
-PATH = /Users/sweet/Library/pnpm:/Users/sweet/.nvm/versions/node/v12.10.0/lib/node_modules/vue-cli/bin:/Users/sweet/.nvm/versions/node/v16.13.0/bin:/usr/local/opt/php@7.0/sbin:/usr/local/opt/php@7.0/bin:/Users/sweet/software/apache-maven-3.5.4/bin:./node_modules/.bin:/Users/sweet/.yarn/bin:/Users/sweet/.config/yarn/global/node_modules/.bin:/Users/sweet/anaconda3/condabin:/Users/sweet/anaconda2/bin:/Users/sweet/tensorflow/flutter/bin:/Users/sweet/software/apache-maven-3.5.4/bin:/Users/sweet/anaconda2/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/Library/Frameworks/Python.framework/Versions/3.5/bin:/Library/Frameworks/Python.framework/Versions/3.5/bin:/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/usr/local/mysql/bin:/Users/sweet/.rvm/bin:/Users/sweet/Library/Android/sdk/tools:/Users/sweet/Library/Android/sdk/platform-tools:/usr/local/lib/node_modules/vue-cli/bin:/usr/local/mongodb/bin:/Users/sweet/.rvm/bin:/Users/sweet/Library/Application Support/cloud-code/installer/google-cloud-sdk/bin:/Users/sweet/google-cloud-sdk/bin
+PATH = /Users/sweet/Library/Application Support/cloud-code/installer/google-cloud-sdk/bin:/Users/sweet/Library/pnpm:/Users/sweet/.nvm/versions/node/v12.10.0/lib/node_modules/vue-cli/bin:/Users/sweet/.nvm/versions/node/v16.13.0/bin:/usr/local/opt/php@7.0/sbin:/usr/local/opt/php@7.0/bin:/Users/sweet/software/apache-maven-3.5.4/bin:./node_modules/.bin:/Users/sweet/.yarn/bin:/Users/sweet/.config/yarn/global/node_modules/.bin:/Users/sweet/anaconda3/condabin:/Users/sweet/anaconda2/bin:/Users/sweet/tensorflow/flutter/bin:/Users/sweet/software/apache-maven-3.5.4/bin:/Users/sweet/anaconda2/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/Library/Frameworks/Python.framework/Versions/3.5/bin:/Library/Frameworks/Python.framework/Versions/3.5/bin:/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/usr/local/mysql/bin:/Users/sweet/.rvm/bin:/Users/sweet/Library/Android/sdk/tools:/Users/sweet/Library/Android/sdk/platform-tools:/usr/local/lib/node_modules/vue-cli/bin:/usr/local/mongodb/bin:/Users/sweet/.rvm/bin:/Users/sweet/google-cloud-sdk/bin
 # environment
 LSCOLORS = Gxfxcxdxbxegedabagacad
 # environment
@@ -72,13 +72,13 @@ M2 = /Users/sweet/software/apache-maven-3.5.4/bin
 # environment
 CLOUDSDK_METRICS_ENVIRONMENT = cloudcode.vscode
 # environment
-SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.M0NbgFu26k/Listeners
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.bLcrqi9ViX/Listeners
 # automatic
 %F = $(notdir $%)
 # environment
 CONDA_EXE = /Users/sweet/anaconda3/bin/conda
 # environment
-CLOUDSDK_METRICS_ENVIRONMENT_VERSION = 1.19.0
+CLOUDSDK_METRICS_ENVIRONMENT_VERSION = 1.20.1
 # environment
 rvm_bin_path = /Users/sweet/.rvm/bin
 # environment
@@ -96,7 +96,7 @@ HOME = /Users/sweet
 # default
 MAKEFILEPATH := /Applications/Xcode.app/Contents/Developer/Makefiles
 # environment
-VSCODE_CODE_CACHE_PATH = /Users/sweet/Library/Application Support/Code - Insiders/CachedData/12b08be500f8a307f30e92cbc3ee39ba115eab69
+VSCODE_CODE_CACHE_PATH = /Users/sweet/Library/Application Support/Code - Insiders/CachedData/28f604dec81b609dd7e69362585f7a99d4c48f88
 # environment
 LOGNAME = sweet
 # environment
@@ -148,7 +148,7 @@ TMPDIR = /var/folders/kq/5l_rlt6j61sg8x3rlww3gb_c0000gn/T/
 # environment
 NODE_PATH = /usr/local/lib/node_modules
 # environment
-VSCODE_IPC_HOOK = /Users/sweet/Library/Application Support/Code - Insiders/1.70.0-insider-main.sock
+VSCODE_IPC_HOOK = /Users/sweet/Library/Application Support/Code - Insiders/1.71.0-insider-main.sock
 # environment
 MallocNanoZone = 0
 # makefile
@@ -162,7 +162,7 @@ NVM_DIR = /Users/sweet/.nvm
 # environment
 HOMEBREW_SHELLENV_PREFIX = /usr/local
 # environment
-XPC_SERVICE_NAME = application.com.microsoft.VSCodeInsiders.8909204134.8909204142
+XPC_SERVICE_NAME = application.com.microsoft.VSCodeInsiders.8910258895.8910258901
 # environment
 HOMEBREW_PREFIX = /usr/local
 # automatic
@@ -210,7 +210,7 @@ AUTOJUMP_ERROR_PATH = /Users/sweet/Library/autojump/errors.log
 # environment
 LANG = C
 # environment
-VSCODE_PID = 77970
+VSCODE_PID = 39140
 # environment
 _CE_CONDA = 
 # variable set hash-table stats:
@@ -396,6 +396,6 @@ deploy:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Sun Jul 31 17:29:15 2022
+# Finished Make data base on Sat Aug 20 23:58:17 2022
 
  

@@ -2,6 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   conventional-changelog-conventionalcommits: ^5.0.0
+  cross-env: ^7.0.3
   lerna: ^5.1.4
   less: ^4.1.3
   typescript: ^4.6.4
@@ -12,6 +13,7 @@ specifiers:
 
 devDependencies:
   conventional-changelog-conventionalcommits: registry.npmjs.org/conventional-changelog-conventionalcommits/5.0.0
+  cross-env: registry.npmjs.org/cross-env/7.0.3
   lerna: registry.npmjs.org/lerna/5.4.3
   less: registry.npmjs.org/less/4.1.3
   typescript: registry.npmjs.org/typescript/4.7.4
@@ -2466,6 +2468,16 @@ packages:
       parse-json: registry.npmjs.org/parse-json/5.2.0
       path-type: registry.npmjs.org/path-type/4.0.0
       yaml: registry.npmjs.org/yaml/1.10.2
+    dev: true
+
+  registry.npmjs.org/cross-env/7.0.3:
+    resolution: {integrity: sha512-+/HKd6EgcQCJGh2PSjZuUitQBQynKor4wrFbRg4DtAgS1aWO+gU52xpH7M9ScGgXSYmAVS9bIJ8EzuaGw0oNAw==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/cross-env/-/cross-env-7.0.3.tgz}
+    name: cross-env
+    version: 7.0.3
+    engines: {node: '>=10.14', npm: '>=6', yarn: '>=1'}
+    hasBin: true
+    dependencies:
+      cross-spawn: registry.npmjs.org/cross-spawn/7.0.3
     dev: true
 
   registry.npmjs.org/cross-spawn/7.0.3:

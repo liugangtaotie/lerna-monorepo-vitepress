@@ -1,20 +1,19 @@
 /*
  * @Descripttion:
  * @Author: liugang
- * @Date: 2022-06-12 22:32:22
+ * @Date: 2022-08-21 15:18:49
  * @LastEditors: liugang
- * @LastEditTime: 2022-08-21 11:22:52
+ * @LastEditTime: 2022-08-21 15:21:01
  */
-import { h } from 'vue'
-import Theme from 'vitepress/theme'
+import theme from 'vitepress/dist/client/theme-default'
 import 'vitepress-theme-demoblock/theme/styles/index.css'
 import { registerComponents } from './register-components'
 import Button from '../../../packages/Button/Button.vue'
 import '../../../packages/Button/index.css'
-import './styles/vars.css'
+import './styles/index.css'
 
 export default {
-  ...Theme,
+  ...theme,
   enhanceApp({ app, router, siteData }) {
     // app is the Vue 3 app instance from createApp()
     // router is VitePress' custom router (see `lib/app/router.js`)

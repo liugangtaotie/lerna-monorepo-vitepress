@@ -5,7 +5,7 @@
 ### 第一步 创建组件
 在packages 下面创建 需要发布的组件，比如：pusa组件
 
-![Image text](../assets/images/com-01.jpeg)
+![com-01](https://user-images.githubusercontent.com/22477383/185797226-a9f5ed74-fb50-41c8-8fa3-8e1d3b401f97.jpeg)
 
 ```vue
 <template>
@@ -26,7 +26,7 @@ export default {
 
 目标路径  docs/.vitepress/theme/index.js  下面注册pusa组件
 
-![Image text](../assets/images/com-02.jpeg)
+![com-02](https://user-images.githubusercontent.com/22477383/185797240-330aa418-dd65-4500-8d36-1ccad51e8bc6.jpeg)
 
 ```javascript
 ...
@@ -43,7 +43,7 @@ export default {
 
 ### 第三步 在components 下面创建pusa.md文件
 
-![Image text](../assets/images/com-03.jpeg)
+![com-03](https://user-images.githubusercontent.com/22477383/185797250-cfe32e46-0272-4e1e-b86f-c641973daf6c.jpeg)
 
 ####  Pusa 业务组件
 

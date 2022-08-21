@@ -3,9 +3,11 @@
  * @Author: liugang
  * @Date: 2022-06-12 22:32:22
  * @LastEditors: liugang
- * @LastEditTime: 2022-08-21 10:49:01
+ * @LastEditTime: 2022-08-21 13:14:29
  */
 import { defineConfig } from 'vitepress'
+const nav = require('./configs/nav')
+// const sidebar = require('./configs/sidebar')
 
 export default defineConfig({
   title: 'Vite',
@@ -28,11 +30,7 @@ export default defineConfig({
       text: 'Suggest changes to this page',
     },
 
-    socialLinks: [
-      { icon: 'twitter', link: 'https://twitter.com/vite_js' },
-      { icon: 'discord', link: 'https://chat.vitejs.dev' },
-      { icon: 'github', link: 'https://github.com/vitejs/vite' },
-    ],
+    socialLinks: [{ icon: 'github', link: 'https://github.com/vitejs/vite' }],
 
     algolia: {
       apiKey: 'b573aa848fd57fb47d693b531297403c',
@@ -42,35 +40,33 @@ export default defineConfig({
       },
     },
 
-    localeLinks: {
-      text: 'English',
-      items: [
-        { text: '简体中文', link: 'https://cn.vitejs.dev' },
-        { text: '日本語', link: 'https://ja.vitejs.dev' },
-      ],
-    },
-
     footer: {
       message: 'Released under the MIT License.',
       copyright: 'Copyright © 2019-present xxxx',
     },
 
-    nav: [{ text: 'Config', link: '/config/', activeMatch: '/config/' }],
+    nav,
 
     sidebar: {
-      '/config/': [
+      '/components/': [
         {
-          text: 'Config',
+          text: 'Components',
           items: [
             {
-              text: 'Configuring Vite',
-              link: '/config/',
+              text: 'Components Vite',
+              link: '/components/',
             },
           ],
         },
       ],
     },
+
+    // page meta
+    editLinks: true,
+    editLinkText: '在 GitHub 上编辑此页',
+    lastUpdated: '上次更新',
   },
+
   markdown: {
     // options for markdown-it-anchor
     anchor: { permalink: false },

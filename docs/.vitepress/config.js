@@ -3,7 +3,7 @@
  * @Author: liugang
  * @Date: 2022-08-21 15:18:49
  * @LastEditors: liugang
- * @LastEditTime: 2022-08-21 15:31:09
+ * @LastEditTime: 2022-08-21 15:49:23
  */
 const nav = require('./configs/nav')
 const sidebar = require('./configs/sidebar')
@@ -22,11 +22,11 @@ module.exports = {
     docsDir: 'docs',
     docsBranch: 'master',
 
-    algolia: {
-      appId: 'X51HWTCQJJ',
-      apiKey: 'ca20f15eb8a667898b65d13f4213ae3d',
-      indexName: 'h5-document-vite-web',
-    },
+    // algolia: {
+    //   appId: 'X51HWTCQJJ',
+    //   apiKey: 'ca20f15eb8a667898b65d13f4213ae3d',
+    //   indexName: 'vitepress-demo',
+    // },
 
     // nav
     nav,

@@ -34,11 +34,7 @@ function getGuideSidebar() {
       text: '指南',
       children: [
         {
-          text: '文档1',
-          link: '/guide/',
-        },
-        {
-          text: '文档2',
+          text: '快速开始',
           link: '/guide/',
         },
       ],

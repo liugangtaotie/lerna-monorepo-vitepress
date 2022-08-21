@@ -3,37 +3,37 @@ default: help
 
 # build all theme
 dev:
-	pnpm run docs
+	yarn run docs:dev
 
 analyz:
-	pnpm run analyz
+	yarn run analyz
 
 build:
-	pnpm run docs-build
+	yarn run docs:build
 
 autofix:
-	pnpm run autofix
+	yarn run autofix
 
 dll:
-	pnpm run build:dll
+	yarn run build:dll
 	
 test:
-	pnpm run build:development
+	yarn run build:development
 
 pro:
-	pnpm run docs-build
+	yarn run docs:build
 
 deploy:
-	pnpm run deploy
+	yarn run deploy
 
 lint:
-	pnpm run lint
+	yarn run lint
 
 e2e:
-	pnpm run test:e2e
+	yarn run test:e2e
 
 unit:
-	pnpm run test:unit
+	yarn run test:unit
 
 pre:
-	pnpm run precommit
+	yarn run precommit

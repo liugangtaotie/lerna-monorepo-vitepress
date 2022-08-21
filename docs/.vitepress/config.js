@@ -26,7 +26,7 @@ module.exports = {
     // algolia: {
     //   appId: 'X51HWTCQJJ',
     //   apiKey: 'ca20f15eb8a667898b65d13f4213ae3d',
-    //   indexName: 'vitepress-demo',
+    //   indexName: 'h5-document-vite-web',
     // },
 
     // nav

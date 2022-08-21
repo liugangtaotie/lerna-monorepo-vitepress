@@ -3,13 +3,13 @@
  * @Author: liugang
  * @Date: 2022-08-21 15:18:49
  * @LastEditors: liugang
- * @LastEditTime: 2022-08-21 15:56:56
+ * @LastEditTime: 2022-08-21 16:47:35
  */
 const nav = require('./configs/nav')
 const sidebar = require('./configs/sidebar')
 
 module.exports = {
-  title: '业务组件',
+  title: '业务组件库',
   description: 'Life is short, Keep it simple.',
 
   head: [['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }]],

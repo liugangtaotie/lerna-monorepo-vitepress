@@ -3,9 +3,9 @@
  * @Author: liugang
  * @Date: 2022-06-12 22:39:03
  * @LastEditors: liugang
- * @LastEditTime: 2022-08-21 11:24:43
+ * @LastEditTime: 2022-08-21 12:22:22
 -->
-## 一. 优秀博客
+
 
 
 :::demo 使用`type`、`plain`、`round`和`circle`属性来定义 Button 的样式。
@@ -22,6 +22,16 @@
 ```
 
 :::
+
+
+## Attributes
+
+| 参数    | 说明   | 类型    | 可选值                                             | 默认值  |
+|---------|--------|---------|----------------------------------------------------|---------|
+| size    | 尺寸   | string  | large / small / mini                               | default |
+| type    | 类型   | string  | primary / success / warning / info / danger / text | primary |
+| loading | 加载中 | boolean | —                                                  | false   |
+
 
 ## 2022：
 

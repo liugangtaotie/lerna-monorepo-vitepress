@@ -4,7 +4,15 @@
   ],
   "useNx": false,
   "version": "0.0.13",
+  "npmClient": "yarn",
+  "useWorkspaces": true,
   "command": {
+    "bootstrap": {
+      "hoist": true
+    },
+    "version": {
+      "conventionalCommits": true
+    },
     "publish": {
       "registry": "https://registry.npmjs.org"
     }
@@ -59,7 +67,14 @@
         "type": "ci",
         "section": "👷 Continuous Integration | CI 配置"
       }
-    ]
+    ],
+    "issuePrefixes": [
+      "#"
+    ],
+    "issueUrlFormat": "{{host}}/{{owner}}/{{repository}}/issues/{{id}}",
+    "commitUrlFormat": "{{host}}/{{owner}}/{{repository}}/commit/{{hash}}",
+    "compareUrlFormat": "{{host}}/{{owner}}/{{repository}}/compare/{{previousTag}}...{{currentTag}}",
+    "userUrlFormat": "{{host}}/{{user}}"
   },
   "ignoreChanges": [
     "ignored-file",

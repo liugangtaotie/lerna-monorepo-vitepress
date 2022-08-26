@@ -11,6 +11,11 @@
     "build-tool",
     "vite"
   ],
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
   "scripts": {
     "docs:dev": "yarn run register:components && vitepress dev docs",
     "docs:build": "yarn run register:components && cross-env BASE=/h5-document-vite-web/ vitepress build docs",
@@ -20,6 +25,7 @@
   },
   "dependencies": {},
   "devDependencies": {
+    "conventional-changelog-conventionalcommits": "^5.0.0",
     "cross-env": "^7.0.3",
     "lerna": "^5.4.3",
     "less": "^4.1.2",

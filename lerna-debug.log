@@ -2,9 +2,9 @@
 15 error fatal: unable to access 'https://github.com/liugangtaotie/lerna-monorepo-vitepress.git/': HTTP/2 stream 1 was not closed cleanly before end of the underlying stream
 15 error error: Could not fetch origin
 15 error Fetching origin
-15 error     at makeError (/Users/sweet/monorepo/lerna-monorepo-vitepress/node_modules/.pnpm/registry.npmjs.org+execa@5.1.1/node_modules/execa/lib/error.js:60:11)
-15 error     at Function.module.exports.sync (/Users/sweet/monorepo/lerna-monorepo-vitepress/node_modules/.pnpm/registry.npmjs.org+execa@5.1.1/node_modules/execa/index.js:194:17)
-15 error     at Object.execSync (/Users/sweet/monorepo/lerna-monorepo-vitepress/node_modules/.pnpm/registry.npmjs.org+@lerna+child-process@5.3.0/node_modules/@lerna/child-process/index.js:39:16)
-15 error     at updateRemote (/Users/sweet/monorepo/lerna-monorepo-vitepress/node_modules/.pnpm/registry.npmjs.org+@lerna+version@5.3.0/node_modules/@lerna/version/lib/is-behind-upstream.js:34:16)
-15 error     at isBehindUpstream (/Users/sweet/monorepo/lerna-monorepo-vitepress/node_modules/.pnpm/registry.npmjs.org+@lerna+version@5.3.0/node_modules/@lerna/version/lib/is-behind-upstream.js:16:3)
-15 error     at VersionCommand.initialize (/Users/sweet/monorepo/lerna-monorepo-vitepress/node_modules/.pnpm/registry.npmjs.org+@lerna+version@5.3.0/node_modules/@lerna/version/index.js:153:9)
+15 error     at makeError (/Users/sweet/monorepo/lerna-monorepo-vitepress/node_modules/execa/lib/error.js:60:11)
+15 error     at Function.module.exports.sync (/Users/sweet/monorepo/lerna-monorepo-vitepress/node_modules/execa/index.js:194:17)
+15 error     at Object.execSync (/Users/sweet/monorepo/lerna-monorepo-vitepress/node_modules/@lerna/child-process/index.js:39:16)
+15 error     at updateRemote (/Users/sweet/monorepo/lerna-monorepo-vitepress/node_modules/@lerna/version/lib/is-behind-upstream.js:34:16)
+15 error     at isBehindUpstream (/Users/sweet/monorepo/lerna-monorepo-vitepress/node_modules/@lerna/version/lib/is-behind-upstream.js:16:3)
+15 error     at VersionCommand.initialize (/Users/sweet/monorepo/lerna-monorepo-vitepress/node_modules/@lerna/version/index.js:156:9)

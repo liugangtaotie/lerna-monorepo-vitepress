@@ -3,7 +3,7 @@
  * @Author: liugang
  * @Date: 2022-08-21 17:40:36
  * @LastEditors: liugang
- * @LastEditTime: 2022-08-26 23:10:48
+ * @LastEditTime: 2022-08-26 23:27:09
 -->
 # guide
 
@@ -13,6 +13,7 @@
 在packages 下面创建 需要发布的组件，比如：pusa组件
 
 ![com-01](https://user-images.githubusercontent.com/22477383/185797226-a9f5ed74-fb50-41c8-8fa3-8e1d3b401f97.jpeg)
+
 
 ```vue
 <template>

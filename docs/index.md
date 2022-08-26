@@ -5,7 +5,7 @@ actionText: Get Started
 actionLink: /guide/
 
 altActionText: Learn More
-altActionLink: /guide/
+altActionLink: /components/button
 
 features:
     - title: 💡 沟通

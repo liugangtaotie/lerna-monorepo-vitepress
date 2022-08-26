@@ -1,8 +1,15 @@
+<!--
+ * @Descripttion: 
+ * @Author: liugang
+ * @Date: 2022-08-21 17:40:36
+ * @LastEditors: liugang
+ * @LastEditTime: 2022-08-26 23:10:48
+-->
 # guide
 
 组件发布指南
 
-### 第一步 创建组件
+## 第一步 创建组件
 在packages 下面创建 需要发布的组件，比如：pusa组件
 
 ![com-01](https://user-images.githubusercontent.com/22477383/185797226-a9f5ed74-fb50-41c8-8fa3-8e1d3b401f97.jpeg)
@@ -22,7 +29,7 @@ export default {
 </style>
 ```
 
-### 第二步 在docs下面注册组件
+## 第二步 注册组件
 
 目标路径  docs/.vitepress/theme/index.js  下面注册pusa组件
 
@@ -41,7 +48,7 @@ export default {
   },
 ```
 
-### 第三步 在components 下面创建pusa.md文件
+## 第三步 编写文档
 
 ![com-03](https://user-images.githubusercontent.com/22477383/185797250-cfe32e46-0272-4e1e-b86f-c641973daf6c.jpeg)
 

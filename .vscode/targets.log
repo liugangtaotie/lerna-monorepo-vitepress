@@ -7,7 +7,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 
 # This program built for i386-apple-darwin11.3.0
 
-# Make data base, printed on Sat Aug 20 23:58:17 2022
+# Make data base, printed on Fri Aug 26 23:08:10 2022
 
 # Variables
 
@@ -32,7 +32,7 @@ CURDIR := /Users/sweet/monorepo/lerna-monorepo-vitepress
 # makefile
 SHELL = /bin/sh
 # environment
-VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"08bdb29c43b4c03defdaaecc51ad48b6.zh-cn","_translationsConfigFile":"/Users/sweet/Library/Application Support/Code - Insiders/clp/08bdb29c43b4c03defdaaecc51ad48b6.zh-cn/tcf.json","_cacheRoot":"/Users/sweet/Library/Application Support/Code - Insiders/clp/08bdb29c43b4c03defdaaecc51ad48b6.zh-cn","_resolvedLanguagePackCoreLocation":"/Users/sweet/Library/Application Support/Code - Insiders/clp/08bdb29c43b4c03defdaaecc51ad48b6.zh-cn/28f604dec81b609dd7e69362585f7a99d4c48f88","_corruptedFile":"/Users/sweet/Library/Application Support/Code - Insiders/clp/08bdb29c43b4c03defdaaecc51ad48b6.zh-cn/corrupted.info","_languagePackSupport":true}
+VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"394cac846501d84cad74d57d548261c6.zh-cn","_translationsConfigFile":"/Users/sweet/Library/Application Support/Code - Insiders/clp/394cac846501d84cad74d57d548261c6.zh-cn/tcf.json","_cacheRoot":"/Users/sweet/Library/Application Support/Code - Insiders/clp/394cac846501d84cad74d57d548261c6.zh-cn","_resolvedLanguagePackCoreLocation":"/Users/sweet/Library/Application Support/Code - Insiders/clp/394cac846501d84cad74d57d548261c6.zh-cn/35b971c92d210face8c446a1c6f1e470ad2bcb54","_corruptedFile":"/Users/sweet/Library/Application Support/Code - Insiders/clp/394cac846501d84cad74d57d548261c6.zh-cn/corrupted.info","_languagePackSupport":true}
 # environment
 _ = /usr/bin/make
 # environment
@@ -96,7 +96,7 @@ HOME = /Users/sweet
 # default
 MAKEFILEPATH := /Applications/Xcode.app/Contents/Developer/Makefiles
 # environment
-VSCODE_CODE_CACHE_PATH = /Users/sweet/Library/Application Support/Code - Insiders/CachedData/28f604dec81b609dd7e69362585f7a99d4c48f88
+VSCODE_CODE_CACHE_PATH = /Users/sweet/Library/Application Support/Code - Insiders/CachedData/35b971c92d210face8c446a1c6f1e470ad2bcb54
 # environment
 LOGNAME = sweet
 # environment
@@ -162,7 +162,7 @@ NVM_DIR = /Users/sweet/.nvm
 # environment
 HOMEBREW_SHELLENV_PREFIX = /usr/local
 # environment
-XPC_SERVICE_NAME = application.com.microsoft.VSCodeInsiders.8910258895.8910258901
+XPC_SERVICE_NAME = application.com.microsoft.VSCodeInsiders.8910851420.8910851428
 # environment
 HOMEBREW_PREFIX = /usr/local
 # automatic
@@ -210,7 +210,7 @@ AUTOJUMP_ERROR_PATH = /Users/sweet/Library/autojump/errors.log
 # environment
 LANG = C
 # environment
-VSCODE_PID = 39140
+VSCODE_PID = 36882
 # environment
 _CE_CONDA = 
 # variable set hash-table stats:
@@ -222,9 +222,9 @@ _CE_CONDA =
 
 # Directories
 
-# . (device 16777220, inode 8907363251): 16 files, no impossibilities.
+# . (device 16777220, inode 8907363251): 19 files, no impossibilities.
 
-# 16 files, no impossibilities in 1 directories.
+# 19 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -237,7 +237,7 @@ e2e:
 #  Modification time never checked.
 #  File has not been updated.
 #  commands to execute (from `Makefile', line 33):
-	pnpm run test:e2e
+	yarn run test:e2e
 	
 
 pre:
@@ -245,7 +245,7 @@ pre:
 #  Modification time never checked.
 #  File has not been updated.
 #  commands to execute (from `Makefile', line 39):
-	pnpm run precommit
+	yarn run precommit
 	
 
 # Not a target:
@@ -267,7 +267,7 @@ autofix:
 #  Modification time never checked.
 #  File has not been updated.
 #  commands to execute (from `Makefile', line 15):
-	pnpm run autofix
+	yarn run autofix
 	
 
 # Not a target:
@@ -282,7 +282,7 @@ make: *** No rule to make target `all'.  Stop.
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-06-12 23:24:20
+#  Last modified 2022-08-21 17:41:19
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -299,7 +299,7 @@ test:
 #  Modification time never checked.
 #  File has not been updated.
 #  commands to execute (from `Makefile', line 21):
-	pnpm run build:development
+	yarn run build:development
 	
 
 analyz:
@@ -307,7 +307,7 @@ analyz:
 #  Modification time never checked.
 #  File has not been updated.
 #  commands to execute (from `Makefile', line 9):
-	pnpm run analyz
+	yarn run analyz
 	
 
 build:
@@ -315,7 +315,7 @@ build:
 #  Modification time never checked.
 #  File has not been updated.
 #  commands to execute (from `Makefile', line 12):
-	pnpm run docs-build
+	yarn run docs:build
 	
 
 dll:
@@ -323,7 +323,7 @@ dll:
 #  Modification time never checked.
 #  File has not been updated.
 #  commands to execute (from `Makefile', line 18):
-	pnpm run build:dll
+	yarn run build:dll
 	
 
 # Not a target:
@@ -342,7 +342,7 @@ pro:
 #  Modification time never checked.
 #  File has not been updated.
 #  commands to execute (from `Makefile', line 24):
-	pnpm run docs-build
+	yarn run docs:build
 	
 
 dev:
@@ -350,7 +350,7 @@ dev:
 #  Modification time never checked.
 #  File has not been updated.
 #  commands to execute (from `Makefile', line 6):
-	pnpm run docs
+	yarn run docs:dev
 	
 
 # Not a target:
@@ -364,7 +364,7 @@ unit:
 #  Modification time never checked.
 #  File has not been updated.
 #  commands to execute (from `Makefile', line 36):
-	pnpm run test:unit
+	yarn run test:unit
 	
 
 lint:
@@ -372,7 +372,7 @@ lint:
 #  Modification time never checked.
 #  File has not been updated.
 #  commands to execute (from `Makefile', line 30):
-	pnpm run lint
+	yarn run lint
 	
 
 deploy:
@@ -380,7 +380,7 @@ deploy:
 #  Modification time never checked.
 #  File has not been updated.
 #  commands to execute (from `Makefile', line 27):
-	pnpm run deploy
+	yarn run deploy
 	
 
 # files hash-table stats:
@@ -396,6 +396,6 @@ deploy:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Sat Aug 20 23:58:17 2022
+# Finished Make data base on Fri Aug 26 23:08:10 2022
 
  
